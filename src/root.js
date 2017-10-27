@@ -33,9 +33,7 @@ export default class Root extends Component{
                             key="main" 
                             component={Main} 
                             title={"Almatsurat"} 
-                            onRight={this._renderMenu}
-                            renderRightButton={this._renderMenu}
-                            rightButtonImage={require('newAlmatsurat/assets/img/menu.png')}/>
+                            renderRightButton={this._renderMenu} />
                     </Stack>
                 </Router>
             </MenuContext>
