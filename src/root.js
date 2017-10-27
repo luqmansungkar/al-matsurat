@@ -2,32 +2,20 @@ import {Scene, Router, Stack} from 'react-native-router-flux';
 import React, { Component } from 'react';
 import Main from './scene/main.js';
 import {StyleSheet, Text, Image} from 'react-native';
-import { MenuContext, Menu,
-    MenuOptions,
-    MenuOption,
-    MenuTrigger } from 'react-native-popup-menu';
+import ContextMenu from './component/ContextMenu.js';
+import { MenuContext } from 'react-native-popup-menu';
 
 export default class Root extends Component{
     _renderMenu(){
         return (
-            <Menu>
-                <MenuTrigger>
-                    <Image source={require('newAlmatsurat/assets/img/menu.png')} style={styles.rightMenu} />
-                </MenuTrigger>
-                <MenuOptions>
-                    <MenuOption onSelect={() => alert(`Save`)} text='Save' />
-                    <MenuOption onSelect={() => alert(`Delete`)} >
-                        <Text style={{color: 'red'}}>Delete</Text>
-                    </MenuOption>
-                </MenuOptions>
-            </Menu>
+            <ContextMenu />
         );
     }
 
     render(){
         return(
             <MenuContext style={{flex: 1}}>
-                <Router navigationBarStyle={styles.navBar} titleStyle={styles.title} rightButtonIconStyle={styles.rightMenu} >
+                <Router navigationBarStyle={styles.navBar} titleStyle={styles.title}  >
                     <Stack key="root">
                         <Scene 
                             key="main" 
@@ -48,11 +36,4 @@ var styles = StyleSheet.create({
     title: {
         color: "white"
     },
-    rightMenu: {
-        // backgroundColor: "yellow",
-        height: 24,
-        resizeMode: 'contain',
-        width: 20,
-        marginRight: 10
-    }
 });
