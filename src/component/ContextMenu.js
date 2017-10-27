@@ -1,5 +1,6 @@
 import {StyleSheet, Text, Image} from 'react-native';
 import React, { Component } from 'react';
+import {Actions} from 'react-native-router-flux';
 import { Menu,
     MenuOptions,
     MenuOption,
@@ -13,7 +14,7 @@ export default class ContextMenu extends Component{
                     <Image source={require('newAlmatsurat/assets/img/menu.png')} style={styles.rightMenu} />
                 </MenuTrigger>
                 <MenuOptions>
-                    <MenuOption onSelect={() => alert(`Setting`)} text='Setting' />
+                    <MenuOption onSelect={() => Actions.setting()} text='Setting' />
                     <MenuOption text='About' onSelect={() => alert(`Delete`)} />
                 </MenuOptions>
             </Menu>
