@@ -1,0 +1,3 @@
+rootProject.name = 'newAlmatsurat'
+
+include ':app'
