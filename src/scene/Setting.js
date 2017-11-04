@@ -15,14 +15,22 @@ export default class Setting extends Component{
             arabicSize: 35,
             terjemahSize: 25
         }
+        AsyncStorage.getItem('arabicSize').then((val) => {
+            this.setState({ arabicSize: isNaN(parseInt(val)) ? 35 : parseInt(val) });
+        }).done();
+        AsyncStorage.getItem('terjemahSize').then((val) => {
+            this.setState({ terjemahSize: isNaN(parseInt(val)) ? 35 : parseInt(val) });
+        }).done();
     }
 
     updateArabic = (val) => {
         this.setState({arabicSize: val});
+        AsyncStorage.setItem('arabicSize', ""+val);
     }
 
     updateTerjemah = (val) => {
         this.setState({terjemahSize: val});
+        AsyncStorage.setItem('terjemahSize', ""+val);
     }
 
     render(){
