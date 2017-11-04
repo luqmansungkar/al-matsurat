@@ -7,6 +7,28 @@ import ContextMenu from './component/ContextMenu.js';
 import { MenuContext } from 'react-native-popup-menu';
 
 export default class Root extends Component{
+
+    constructor(props){
+        super(props);
+        this.state = {
+            reset: true,
+            mounted: false
+        };
+    }
+
+    componentDidMount(){
+        this.setState({mounted: true});
+    }
+
+    _onEnterMain(){
+        console.log("onEnter main");
+        // this._refreshState();
+        if(this.state.mounted){
+            this.setState({reset: true});   
+        }
+        console.log("after refresh")
+    }
+
     _renderMenu(){
         return (
             <ContextMenu />
@@ -16,17 +38,24 @@ export default class Root extends Component{
     render(){
         return(
             <MenuContext style={{flex: 1}}>
-                <Router navigationBarStyle={styles.navBar} titleStyle={styles.title}  >
+                <Router 
+                    navigationBarStyle={styles.navBar} 
+                    titleStyle={styles.title} 
+                    navBarButtonColor="white"  >
                     <Stack key="root">
                         <Scene 
                             key="main" 
                             component={Main} 
                             title={"Almatsurat"} 
-                            renderRightButton={this._renderMenu} />
+                            renderRightButton={this._renderMenu}
+                            onEnter={this._onEnterMain.bind(this)}
+                            onExit={() => console.log("onExit main")} />
                         <Scene 
                             key="setting" 
                             component={Setting} 
-                            title={"Setting"} />
+                            title={"Setting"}
+                            onEnter={() => console.log("onEnter setting")}
+                            onExit={() => console.log("onExit setting")} />
                     </Stack>
                 </Router>
             </MenuContext>

@@ -1,5 +1,9 @@
 import React, {Component, PropTypes} from 'react';
-import {View, ViewPagerAndroid, StyleSheet} from 'react-native';
+import {
+    View, 
+    ViewPagerAndroid, 
+    StyleSheet,
+} from 'react-native';
 import konten from '../data/source.js';
 import MatsuratPage from '../component/MatsuratPage.js';
 import ViewPager from 'react-native-viewpager';
@@ -14,7 +18,7 @@ export default class MatsuratPager extends Component{
         console.log(">>> "+JSON.stringify(e));
     };
 
-    _renderPages(data, pageID){
+    _renderPages(data, pageID){      
         return (
             <MatsuratPage 
                 arabicText={data.arab}
@@ -22,8 +26,8 @@ export default class MatsuratPager extends Component{
                 judul={data.judul}
                 pengulangan={data.pengulangan}
                 onPress={this.onPress}
-                arabicFontSize={20}
-                terjemahFontSize={20}
+                arabicFontSize={this.props.arabicSize}
+                terjemahFontSize={this.props.terjemahSize}
             />
         );
     }
@@ -42,7 +46,7 @@ export default class MatsuratPager extends Component{
 
         return(
             <ViewPager 
-                renderPage={this._renderPages} 
+                renderPage={this._renderPages.bind(this)} 
                 dataSource={source}
                 onChangePage={this.onPageSelected}
                 renderPageIndicator={false} />
