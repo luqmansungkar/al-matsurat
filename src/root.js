@@ -2,6 +2,7 @@ import {Scene, Router, Stack} from 'react-native-router-flux';
 import React, { Component } from 'react';
 import Main from './scene/main.js';
 import Setting from './scene/Setting.js';
+import About from './scene/About.js';
 import {StyleSheet, Text, Image} from 'react-native';
 import ContextMenu from './component/ContextMenu.js';
 import { MenuContext } from 'react-native-popup-menu';
@@ -44,6 +45,7 @@ export default class Root extends Component{
                     navBarButtonColor="white"  >
                     <Stack key="root">
                         <Scene 
+                            initial={true}
                             key="main" 
                             component={Main} 
                             title={"Almatsurat"} 
@@ -53,9 +55,13 @@ export default class Root extends Component{
                         <Scene 
                             key="setting" 
                             component={Setting} 
-                            title={"Setting"}
+                            title={"Pengaturan"}
                             onEnter={() => console.log("onEnter setting")}
                             onExit={() => console.log("onExit setting")} />
+                        <Scene 
+                            key="about" 
+                            component={About} 
+                            title={"Tentang"} />
                     </Stack>
                 </Router>
             </MenuContext>

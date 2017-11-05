@@ -14,9 +14,9 @@ export default class ContextMenu extends Component{
                     <Image source={require('newAlmatsurat/assets/img/menu.png')} style={styles.rightMenu} />
                 </MenuTrigger>
                 <MenuOptions customStyles={styles}>
-                    <MenuOption onSelect={() => Actions.setting()} text='Setting' />
+                    <MenuOption onSelect={() => Actions.setting()} text='Pengaturan' />
                     <View style={styles.divider} />
-                    <MenuOption text='About' onSelect={() => alert(`Delete`)} />
+                    <MenuOption text='Tentang' onSelect={() => Actions.about()} />
                 </MenuOptions>
             </Menu>
         );
@@ -39,7 +39,7 @@ var styles = StyleSheet.create({
         paddingLeft: 10
     },
     divider: {
-        borderBottomColor: '#b3b3b3',
+        borderBottomColor: '#dfe2e5',
         borderBottomWidth: 1,
     }
 });
