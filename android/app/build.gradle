@@ -111,10 +111,10 @@ android {
 
     defaultConfig {
         applicationId "com.luqmansungkar.almatsurat"
-        minSdkVersion 16
-        targetSdkVersion 22
-        versionCode 1
-        versionName "1.0"
+        minSdkVersion 14
+        targetSdkVersion 18
+        versionCode 4
+        versionName "2.0"
         ndk {
             abiFilters "armeabi-v7a", "x86"
         }
@@ -139,7 +139,7 @@ android {
     }
     buildTypes {
         release {
-            minifyEnabled enableProguardInReleaseBuilds
+            minifyEnabled true
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
             signingConfig signingConfigs.release
         }
