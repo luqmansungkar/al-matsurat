@@ -10,12 +10,34 @@ import ViewPager from 'react-native-viewpager';
 
 export default class MatsuratPager extends Component{
 
+    constructor(props){
+        super(props);
+        this.state = {
+            currentPage: 0
+        };
+    }
     onPress(){
         //do something
     }
 
     onPageSelected = (e) => {
-        console.log(">>> "+JSON.stringify(e));
+        if( e == 9 || e == 13 ){
+            let d = new Date();
+            let hour = d.getHours();
+
+            if(hour < 12 && this.state.currentPage == 12 && e == 13){
+                setTimeout(() => {
+                    this.viewPager.goToPage(17);
+                }, 50);
+            }else if(hour >= 12 && this.state.currentPage == 8 && e == 9){
+                setTimeout(() => {
+                    this.viewPager.goToPage(13);
+                }, 50);
+            }
+        }
+        
+        this.setState({currentPage: e});
+        console.log(">>> "+JSON.stringify(this.state));
     };
 
     _renderPages(data, pageID){      
@@ -48,8 +70,9 @@ export default class MatsuratPager extends Component{
             <ViewPager 
                 renderPage={this._renderPages.bind(this)} 
                 dataSource={source}
-                onChangePage={this.onPageSelected}
-                renderPageIndicator={false} />
+                onChangePage={this.onPageSelected.bind(this)}
+                renderPageIndicator={false}
+                ref={viewPager => {this.viewPager = viewPager; }} />
         );
     }
 }
