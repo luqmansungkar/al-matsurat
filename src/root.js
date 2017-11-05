@@ -60,7 +60,7 @@ export default class Root extends Component{
                             initial={true}
                             key="main" 
                             component={Main} 
-                            title={"Almatsurat"} 
+                            title={"Al-Matsurat"} 
                             renderRightButton={this._renderMenu}
                             onEnter={this._onEnterMain.bind(this)}
                             onExit={() => console.log("onExit main")} />
