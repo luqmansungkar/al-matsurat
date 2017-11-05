@@ -1,4 +1,4 @@
-package com.newalmatsurat;
+package com.luqmansungkar.almatsurat;
 
 import com.facebook.react.ReactActivity;
 
