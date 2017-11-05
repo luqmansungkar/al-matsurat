@@ -1,4 +1,4 @@
-import {Scene, Router, Stack} from 'react-native-router-flux';
+import {Scene, Router, Stack, Actions} from 'react-native-router-flux';
 import React, { Component } from 'react';
 import Main from './scene/main.js';
 import Setting from './scene/Setting.js';
@@ -6,6 +6,7 @@ import About from './scene/About.js';
 import {StyleSheet, Text, Image} from 'react-native';
 import ContextMenu from './component/ContextMenu.js';
 import { MenuContext } from 'react-native-popup-menu';
+import {AdMobInterstitial} from 'react-native-admob';
 
 export default class Root extends Component{
 
@@ -15,6 +16,7 @@ export default class Root extends Component{
             reset: true,
             mounted: false
         };
+        AdMobInterstitial.requestAd();
     }
 
     componentDidMount(){
@@ -30,6 +32,15 @@ export default class Root extends Component{
         console.log("after refresh")
     }
 
+    _backHandler(){
+        if(Actions.state.index === 0){
+            AdMobInterstitial.showAd();
+            return false;
+        }
+        Actions.pop();
+        return true;
+    }
+
     _renderMenu(){
         return (
             <ContextMenu />
@@ -42,7 +53,8 @@ export default class Root extends Component{
                 <Router 
                     navigationBarStyle={styles.navBar} 
                     titleStyle={styles.title} 
-                    navBarButtonColor="white"  >
+                    navBarButtonColor="white" 
+                    backAndroidHandler={this._backHandler} >
                     <Stack key="root">
                         <Scene 
                             initial={true}
