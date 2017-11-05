@@ -1,14 +1,14 @@
 export default konten = [
 	{
 		judul: "Al-Fatihah 1-7",
-		arab: "أَعُوْذُ بِاللّٰهِ السَّمِيْعِ الْعَلِيْمِ مِنَ الشَّيْطَانِ الرَّجِيْمِ\nأَعُوْذُ بِاللّٰهِ السَّمِيْعِ الْعَلِيْمِ مِنَ الشَّيْطَانِ الرَّجِيْمِبِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ • اَلْحَمْدُ لِلَّـهِ رَبِّ الْعَالَمِينَ • اَلرَّحْمَـٰنِ الرَّحِيمِ• مَالِكِ يَوْمِ الدِّينِ • إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ • اِهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ • صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
+		arab: "أَعُوْذُ بِاللّٰهِ السَّمِيْعِ الْعَلِيْمِ مِنَ الشَّيْطَانِ الرَّجِيْمِ\nبِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ • اَلْحَمْدُ لِلَّـهِ رَبِّ الْعَالَمِينَ • اَلرَّحْمَـٰنِ الرَّحِيمِ• مَالِكِ يَوْمِ الدِّينِ • إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ • اِهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ • صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّآلِّينَ",
 		terjemah: "“Aku berlindung kepada Allah Yang Maha Mendengar lagi Maha Mengetahui dari godaan setan yang terkutuk”\nDengan menyebut nama Allah Yang Maha Pemurah lagi Maha Penyayang • Segala puji bagi Allah, Tuhan semesta alam • Maha Pemurah lagi Maha Penyayang • Yang menguasai hari pembalasan • Hanya kepada Engkaulah kami menyembah dan hanya kepada Engkaulah kami mohon pertolongan • Tunjukilah kami jalan yang lurus • (yaitu) jalan orang-orang yang telah Engkau anugerahkan ni`mat kepada mereka; bukan (jalan) mereka yang dimurkai dan bukan (pula jalan) mereka yang sesat”. Al Fatihah",
 		pengulangan: "1" 
 	},
 	{
 		judul: "Al-Baqarah 1 - 5",
-		arab: "الٓمٓ(1) ذَٰلِكَ الْكِتَابُ لَا رَيْبَ ۛ فِيهِ ۛ هُدًى لِّلْمُتَّقِينَ (2) اَلَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنفِقُونَ (3) وَالَّذِينَ يُؤْمِنُونَ بِمَآ أُنزِلَ إِلَيْكَ وَمَآ أُنزِلَ مِن قَبْلِكَ وَبِالْأَخِرَةِ هُمْ يُوقِنُونَ (4) أُولَٰٓئِكَ عَلَىٰ هُدًى مِّن رَّبِّهِمْ ۖ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ (5)",
-		terjemah: "(1)Alif Laam Miim.(2) Kitab (Al Qur’an) ini tidak ada keraguan padanya;petunjuk bagi mereka yang bertaqwa,(3) (yaitu) mereka yang beriman kepada yang gaib,  yang mendirikan shalat dan menafkahkan sebahagian rezki yang Kami anugerahkan kepada mereka,(4) dan mereka yang beriman kepada Kitab (Al Qur’an) yang telah diturunkan kepadamu dan Kitab-kitab yang telah diturunkan sebelummu, serta mereka yakin akan adanya (kehidupan) akhirat.(5) Mereka itulah yang tetap mendapat petunjuk dari Tuhan mereka, dan merekalah orang-orang yang beruntung.",
+		arab: "الٓمٓ • ذَٰلِكَ الْكِتَابُ لَا رَيْبَ ۛ فِيهِ ۛ هُدًى لِّلْمُتَّقِينَ • اَلَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنفِقُونَ • وَالَّذِينَ يُؤْمِنُونَ بِمَآ أُنزِلَ إِلَيْكَ وَمَآ أُنزِلَ مِن قَبْلِكَ وَبِالْأَخِرَةِ هُمْ يُوقِنُونَ • أُولَٰٓئِكَ عَلَىٰ هُدًى مِّن رَّبِّهِمْ ۖ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+		terjemah: "Alif Laam Miim. • Kitab (Al Qur’an) ini tidak ada keraguan padanya;petunjuk bagi mereka yang bertaqwa, • (yaitu) mereka yang beriman kepada yang gaib,  yang mendirikan shalat dan menafkahkan sebahagian rezki yang Kami anugerahkan kepada mereka, • dan mereka yang beriman kepada Kitab (Al Qur’an) yang telah diturunkan kepadamu dan Kitab-kitab yang telah diturunkan sebelummu, serta mereka yakin akan adanya (kehidupan) akhirat. • Mereka itulah yang tetap mendapat petunjuk dari Tuhan mereka, dan merekalah orang-orang yang beruntung.",
 		pengulangan: "1" 
 	},
 	{
@@ -19,37 +19,37 @@ export default konten = [
 	},
 	{
 		judul: "Al-Baqarah 256 - 257",
-		arab: "لَآ إِكْرَاهَ فِي الدِّينِ ۖ قَد تَّبَيَّنَ الرُّشْدُ مِنَ الْغَيِّ ۚ فَمَن يَكْفُرْ بِالطَّاغُوتِ وَيُؤْمِن ۢ بِاللَّهِ فَقَدِ اسْتَمْسَكَ بِالْعُرْوَةِ ٱلْوُثْقَىٰ لَا ٱنفِصَامَ لَهَا ۗ وَاللَّهُ سَمِيعٌ عَلِيمٌ (256) اَللَّهُ وَلِيُّ الَّذِينَ ءَامَنُواْ يُخْرِجُهُم مِّنَ الظُّلُمَاتِ إِلَى النُّورِ ۖ وَ ٱلَّذِينَ كَفَرُوٓاْ  أَوْلِيَآؤُهُمُ ٱلطَّاغُوتُ يُخْرِجُونَهُم مِّنَ ٱلنُّورِ إِلَى ٱلظُّلُمَاتِ ۗ أُولَٰٓئِكَ أَصْحَابُ ٱلنَّارِ ۖ هُمْ فِيهَا خَالِدُونَ (257)",
-		terjemah: "Tidak ada paksaan untuk (memasuki) agama (Islam); sesungguhnya telah jelas jalan yang benar daripada jalan yang sesat. Karena itu barang siapa yang ingkar kepada Thaghut dan beriman kepada Allah, maka sesungguhnya ia telah berpegang kepada buhul tali yang amat kuat yang tidak akan putus. Dan Allah Maha Mendengar lagi Maha Mengetahui. (256) Allah  Pelindung orang-orang yang beriman; Dia mengeluarkan mereka dari kegelapan(kekafiran) kepada cahaya (iman). Dan orang-orang yang kafir, pelindung-pelindungnya ialah syaithan, yang mengeluarkan mereka dari cahaya kepada kegelapan (kekafiran). Mereka itu adalah penghuni neraka; mereka kekal di dalamnya.(257)",
+		arab: "لَآ إِكْرَاهَ فِي الدِّينِ ۖ قَد تَّبَيَّنَ الرُّشْدُ مِنَ الْغَيِّ ۚ فَمَن يَكْفُرْ بِالطَّاغُوتِ وَيُؤْمِن ۢ بِاللَّهِ فَقَدِ اسْتَمْسَكَ بِالْعُرْوَةِ ٱلْوُثْقَىٰ لَا ٱنفِصَامَ لَهَا ۗ وَاللَّهُ سَمِيعٌ عَلِيمٌ • اَللَّهُ وَلِيُّ الَّذِينَ ءَامَنُواْ يُخْرِجُهُم مِّنَ الظُّلُمَاتِ إِلَى النُّورِ ۖ وَ ٱلَّذِينَ كَفَرُوٓاْ  أَوْلِيَآؤُهُمُ ٱلطَّاغُوتُ يُخْرِجُونَهُم مِّنَ ٱلنُّورِ إِلَى ٱلظُّلُمَاتِ ۗ أُولَٰٓئِكَ أَصْحَابُ ٱلنَّارِ ۖ هُمْ فِيهَا خَالِدُونَ",
+		terjemah: "Tidak ada paksaan untuk (memasuki) agama (Islam); sesungguhnya telah jelas jalan yang benar daripada jalan yang sesat. Karena itu barang siapa yang ingkar kepada Thaghut dan beriman kepada Allah, maka sesungguhnya ia telah berpegang kepada buhul tali yang amat kuat yang tidak akan putus. Dan Allah Maha Mendengar lagi Maha Mengetahui. • Allah  Pelindung orang-orang yang beriman; Dia mengeluarkan mereka dari kegelapan(kekafiran) kepada cahaya (iman). Dan orang-orang yang kafir, pelindung-pelindungnya ialah syaithan, yang mengeluarkan mereka dari cahaya kepada kegelapan (kekafiran). Mereka itu adalah penghuni neraka; mereka kekal di dalamnya.",
 		pengulangan: "1" 
 	},
 	{
 		judul: "Al-Baqarah 284 - 285",
-		arab: "لِلَّهِ مَا فِي السَّمَٰوَاتِ وَمَا فِي الْأَرْضِ ۗ وَإِنْ تُبْدُواْ مَا فِيٓ أَنْفُسِكُمْ أَوْ تُخْفُوهُ يُحَاسِبْكُمْ بِهِ اللَّهُ ۖ فَيَغْفِرُ لِمَنْ يَشَآءُ وَ يُعَذِّبُ مَنْ يَشَآءُ ۗ وَاللَّهُ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ(284) ءَامَنَ الرَّسُولُ بِمَآ اُنْزِلَ إِلَيْهِ مِنْ رَّ بِّهِ  ۦ وَالْمُؤْمِنُونَ ۚ كُلٌّ ءَامَنَ بِاللَّهِ وَمَلَــٰٓـئِكَتِهِ  ۦ وَكُتُبِهِ  ۦ وَرُسُلِهِ  ۦ لَا نُفَرِّقُ بَيْنَ أَحَدٍ مِنْ رُسُلِهِ  ۚۦ وَقَالُواْ سَمِعْنَا وَأَطَعْنَا ۖ غُفْرَانَكَ رَ بَّنَا وَإِلَيْكَ الْمَصِيرُ(285)",
-		terjemah: "Kepunyaan Allah-lah segala apa yang ada di langit dan apa yang ada di bumi. Dan jika kamu melahirkan apa yang ada di dalam hatimu atau kamu menyembunyikannya, niscaya Allah akan membuat perhitungan dengan kamu tentang  perbuatanmu itu. Maka Allah mengampuni siapa yang dikehendaki-Nya dan menyiksa siapa yang dikehendaki-Nya; danAllah Maha Kuasa atas segala sesuatu.(284) Rasul telah beriman kepada Al Qur’an yang diturunkan kepadanya dari Tuhannya, demikian pula orang-orang yang beriman. Semuanya beriman kepada Allah, malaikat-malaikat-Nya, kitab-kitab-Nya dan rasul-rasul-Nya. (Mereka mengatakan): “Kami tidak membeda-bedakan antara seseorang pun (dengan  yang lain) dari rasul rasul-Nya”, dan mereka mengatakan: “Kami dengar dan kami taat”. (Mereka berdoa):”Ampunilah kami ya Tuhan kami dan kepada Engkaulah tempat kembali”.(285(",
+		arab: "لِلَّهِ مَا فِي السَّمَٰوَاتِ وَمَا فِي الْأَرْضِ ۗ وَإِنْ تُبْدُواْ مَا فِيٓ أَنْفُسِكُمْ أَوْ تُخْفُوهُ يُحَاسِبْكُمْ بِهِ اللَّهُ ۖ فَيَغْفِرُ لِمَنْ يَشَآءُ وَ يُعَذِّبُ مَنْ يَشَآءُ ۗ وَاللَّهُ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ • ءَامَنَ الرَّسُولُ بِمَآ اُنْزِلَ إِلَيْهِ مِنْ رَّ بِّهِ  ۦ وَالْمُؤْمِنُونَ ۚ كُلٌّ ءَامَنَ بِاللَّهِ وَمَلَــٰٓـئِكَتِهِ  ۦ وَكُتُبِهِ  ۦ وَرُسُلِهِ  ۦ لَا نُفَرِّقُ بَيْنَ أَحَدٍ مِنْ رُسُلِهِ  ۚۦ وَقَالُواْ سَمِعْنَا وَأَطَعْنَا ۖ غُفْرَانَكَ رَ بَّنَا وَإِلَيْكَ الْمَصِيرُ",
+		terjemah: "Kepunyaan Allah-lah segala apa yang ada di langit dan apa yang ada di bumi. Dan jika kamu melahirkan apa yang ada di dalam hatimu atau kamu menyembunyikannya, niscaya Allah akan membuat perhitungan dengan kamu tentang  perbuatanmu itu. Maka Allah mengampuni siapa yang dikehendaki-Nya dan menyiksa siapa yang dikehendaki-Nya; danAllah Maha Kuasa atas segala sesuatu. • Rasul telah beriman kepada Al Qur’an yang diturunkan kepadanya dari Tuhannya, demikian pula orang-orang yang beriman. Semuanya beriman kepada Allah, malaikat-malaikat-Nya, kitab-kitab-Nya dan rasul-rasul-Nya. (Mereka mengatakan): “Kami tidak membeda-bedakan antara seseorang pun (dengan  yang lain) dari rasul rasul-Nya”, dan mereka mengatakan: “Kami dengar dan kami taat”. (Mereka berdoa):”Ampunilah kami ya Tuhan kami dan kepada Engkaulah tempat kembali”.",
 		pengulangan: "1" 
 	},
 	{
 		judul: "Al-Baqarah 286",
-		arab: "لَا يُكَلِّفُ اللَّهُ نَفْسًا إِلَّا وُسْعَهَا ۚ لَهَا مَا كَسَبَتْ وَعَلَيْهَا مَا اكْتَسَبَتْ ۗ رَ بَّنَا لَا تُؤَاخِذْنَآ إِنْ نَّسِينَآ أَوْ أَخْطَأْنَا ۚ رَبَّنَا وَلَا تَحْمِلْ عَلَيْنَآ إِصْرًا كَمَا حَمَلْتَهُ, عَلَى الَّذِينَ مِنْ قَبْلِنَا ۚ رَ بَّنَا وَلَا تُحَمِّلْنَا مَا لَا طَاقَةَ لَنَا بِهِ  ۦۖ وَاعْفُ عَنَّا وَاغْفِرْ لَنَا وَارْحَمْنَآ ۚ أَنْتَ مَوْلَـٰـنَا فَانْصُرْنَا عَلَى الْقَوْمِ الْكَافِرِ ينَ(286).",
-		terjemah: "Allah tidak membebani seseorang melainkan sesuai  dengan kesanggupannya. Ia mendapat pahala (dari kebajikan) yang diusahakannya dan ia mendapat siksa (dari  kejahatan) yang dikerjakannya. (Mereka berdo`a): “Ya Tuhan kami, janganlah Engkau hukum kami jika kami lupa atau kami tersalah. Ya Tuhan kami, janganlah Engkau bebankan kepada kami beban yang berat sebagaimana Engkau bebankan kepada orang-orang yang sebelum kami. Ya Tuhan kami, janganlah Engkau pikulkan kepada kami apa yang tak sanggup kami memikulnya. Beri maaflah kami; ampunilah kami; dan rahmatilah kami. Engkaulah Penolong kami, maka tolonglah kami terhadap kaum yang kafir (286)",
+		arab: "لَا يُكَلِّفُ اللَّهُ نَفْسًا إِلَّا وُسْعَهَا ۚ لَهَا مَا كَسَبَتْ وَعَلَيْهَا مَا اكْتَسَبَتْ ۗ رَ بَّنَا لَا تُؤَاخِذْنَآ إِنْ نَّسِينَآ أَوْ أَخْطَأْنَا ۚ رَبَّنَا وَلَا تَحْمِلْ عَلَيْنَآ إِصْرًا كَمَا حَمَلْتَهُ, عَلَى الَّذِينَ مِنْ قَبْلِنَا ۚ رَ بَّنَا وَلَا تُحَمِّلْنَا مَا لَا طَاقَةَ لَنَا بِهِ  ۦۖ وَاعْفُ عَنَّا وَاغْفِرْ لَنَا وَارْحَمْنَآ ۚ أَنْتَ مَوْلَـٰـنَا فَانْصُرْنَا عَلَى الْقَوْمِ الْكَافِرِ ينَ",
+		terjemah: "Allah tidak membebani seseorang melainkan sesuai  dengan kesanggupannya. Ia mendapat pahala (dari kebajikan) yang diusahakannya dan ia mendapat siksa (dari  kejahatan) yang dikerjakannya. (Mereka berdo`a): “Ya Tuhan kami, janganlah Engkau hukum kami jika kami lupa atau kami tersalah. Ya Tuhan kami, janganlah Engkau bebankan kepada kami beban yang berat sebagaimana Engkau bebankan kepada orang-orang yang sebelum kami. Ya Tuhan kami, janganlah Engkau pikulkan kepada kami apa yang tak sanggup kami memikulnya. Beri maaflah kami; ampunilah kami; dan rahmatilah kami. Engkaulah Penolong kami, maka tolonglah kami terhadap kaum yang kafir",
 		pengulangan: "1" 
 	},
 	{
 		judul: "Al - Ikhlas 1 - 4",
-		arab: "بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ\nقُلْ هُوَ ٱللَّهُ أَحَدٌ (1) اَللَّهُ ٱلصَّمَدُ (2) لَمْ يَلِدْ وَلَمْ يُولَدْ (3) وَلَمْ يَكُن لَّهُ ۥ كُفُوًا أَحَدُ ۢ (4)",
+		arab: "بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ\nقُلْ هُوَ ٱللَّهُ أَحَدٌ • اَللَّهُ ٱلصَّمَدُ • لَمْ يَلِدْ وَلَمْ يُولَدْ • وَلَمْ يَكُن لَّهُ ۥ كُفُوًا أَحَدُ ۢ",
 		terjemah: "“Katakanlah: “Dia-lah Allah, yang Maha Esa • Allah adalah Tuhan yang bergantung kepada-Nya segala sesuatu • Dia tiada beranak dan tidak pula diperanakkan • dan tidak ada seorangpun yang setara dengan Dia.”",
 		pengulangan: "3" 
 	},
 	{
 		judul: "Al - Falaq 1 - 5",
-		arab: "بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ\nقُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ (1) مِن شَرِّ مَا خَلَقَ (2) وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ (3) وَمِن شَرِّ ٱلنَّفَّاثَاتِ فِي ٱلْعُقَدِ (4) وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ (5)",
+		arab: "بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ\nقُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ • مِن شَرِّ مَا خَلَقَ • وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ • وَمِن شَرِّ ٱلنَّفَّاثَاتِ فِي ٱلْعُقَدِ • وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ ",
 		terjemah: "“Katakanlah: “Aku berlindung kepada Tuhan yang menguasai subuh • dari kejahatan makhluk-Nya • dan dari kejahatan malam apabila telah gelap gulita • dan dari kejahatan wanita-wanita tukang sihir yang menghembus pada buhul-buhul • dan dari kejahatan pendengki bila ia dengki.”",
 		pengulangan: "3" 
 	},
 	{
 		judul: "An-Naas 1 - 6",
-		arab: "بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ\nقُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ (1) مَلِكِ ٱلنَّاسِ (2) إِلَٰهِ ٱلنَّاسِ (3) مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ (4) اَلَّذِي يُوَسْوِسُ فِي صُدُورِ ٱلنَّاسِ(5) مِنَ ٱلْجِنَّةِ وَ ٱلنَّاسِ (6)",
+		arab: "بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ\nقُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ • مَلِكِ ٱلنَّاسِ (2) إِلَٰهِ ٱلنَّاسِ • مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ • اَلَّذِي يُوَسْوِسُ فِي صُدُورِ ٱلنَّاسِ • مِنَ ٱلْجِنَّةِ وَ ٱلنَّاسِ",
 		terjemah: "“Katakanlah: “Aku berlidung kepada Tuhan (yang memelihara dan menguasai) manusia • raja manusia • sembahan manusia • dari kejahatan (bisikan) syaitan yang biasa bersembunyi • yang membisikkan (kejahatan) ke dalam dada manusia • dari (golongan) jin dan manusia.",
 		pengulangan: "3" 
 	},
@@ -199,7 +199,7 @@ export default konten = [
 	},
 	{
 		judul: "Al-Imran 26 - 27",
-		arab: "قُلِ اللَّهُمَّ مَالِكَ الْمُلْكِ تُؤْتِي الْمُلْكَ مَن تَشَآءُ وَتَنزِعُ الْمُلْكَ مِمَّن تَشَآءُ وَتُعِزُّ مَن تَشَآءُ وَتُذِلُّ مَن تَشَآءُ ۖ بِيَدِكَ الْخَيْرُ ۖ إِنَّكَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ (26) تُولِجُ الَّيْلَ فِي النَّهَارِ وَتُولِجُ النَّهَارَ فِي الَّيْلِ ۖ وَتُخْرِجُ الْحَيَّ مِنَ الْمَيِّتِ وَتُخْرِجُ الْمَيِّتَ مِنَ الْحَيِّ ۖ وَتَرْزُقُ مَن تَشَآءُ بِغَيْرِ حِسَابٍ (27)",
+		arab: "قُلِ اللَّهُمَّ مَالِكَ الْمُلْكِ تُؤْتِي الْمُلْكَ مَن تَشَآءُ وَتَنزِعُ الْمُلْكَ مِمَّن تَشَآءُ وَتُعِزُّ مَن تَشَآءُ وَتُذِلُّ مَن تَشَآءُ ۖ بِيَدِكَ الْخَيْرُ ۖ إِنَّكَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ • تُولِجُ الَّيْلَ فِي النَّهَارِ وَتُولِجُ النَّهَارَ فِي الَّيْلِ ۖ وَتُخْرِجُ الْحَيَّ مِنَ الْمَيِّتِ وَتُخْرِجُ الْمَيِّتَ مِنَ الْحَيِّ ۖ وَتَرْزُقُ مَن تَشَآءُ بِغَيْرِ حِسَابٍ",
 		terjemah: "Katakanlah: “Wahai Tuhan Yang mempunyai kerajaan, Engkau berikan kerajaan kepada orang yang Engkau kehendaki dan Engkau cabut kerajaan dari orang yang Engkau kehendaki. Engkau muliakan orang yang Engkau kehendaki dan Engkau hinakan orang yang Engkau kehendaki. Di tangan Engkaulah segala kebajikan. Sesungguhnya Engkau Maha Kuasa atas segala sesuatu. • Engkau masukkan malam ke dalam siang dan Engkau masukkan siang ke dalam malam. Engkau keluarkan yang hidup dari yang mati, dan Engkau keluarkan yang mati dari yang hidup. Dan Engkau beri rezki siapa yang Engkau kehendaki tanpa hisab (batas).“",
 		pengulangan: "1" 
 	},
