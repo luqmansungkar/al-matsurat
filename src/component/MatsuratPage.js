@@ -19,7 +19,7 @@ export default class MatsuratPage extends Component{
 
 		return(
 			<Image source={require('newAlmatsurat/assets/img/tiledback3emptycorner.png')} style={styles.bgImage} collapsable={false} >
-				<View style={{flex: .07,/* backgroundColor: 'red'*/}} />
+				<View style={{flex: .07}} />
 				<View style={styles.judulContainer}>
 					<View style={styles.judul}>
 						<Text style={{fontSize: judulSize, color: '#000647', textAlign: 'center'}}>{this.props.judul}</Text>
@@ -41,7 +41,7 @@ export default class MatsuratPage extends Component{
                         <Text style={[styles.terjemahText, {fontSize: this.props.terjemahFontSize}]}>{this.props.terjemahText}</Text>
                     </TouchableNativeFeedback>
                 </ScrollView>
-				<View style={{flex: .02/*, backgroundColor: 'red'*/}} />
+				<View style={{flex: .02}} />
 			</Image>
 		);
 	}
@@ -50,45 +50,31 @@ export default class MatsuratPage extends Component{
 var styles = StyleSheet.create({
   bgImage:{
     flex: 1,
-    // flexDirection: 'column',
     width: null,
     height: null,
     resizeMode: 'stretch'
   },
   judulContainer:{
     flex: .13,
-    // backgroundColor: 'yellow',
     flexDirection: 'row',
     justifyContent: 'center',
   },
   judul:{
-  	// flex: 1,
   	width: 245,
   	alignItems: 'center',
   	justifyContent: 'center',
-    // paddingBottom: 0
-    // paddingLeft: 15,
     marginLeft:20,
-  	// backgroundColor: 'pink',
   },
   pengulangan:{
-    // flex: 1,
     width: 50,
     alignItems: 'center',
     justifyContent: 'center',
-    // backgroundColor: 'red',
     marginLeft: 12
   },
   ScrollViewContent:{
-    // alignItems: 'center',
-    // justifyContent: 'center',
-    // backgroundColor: 'red',
     paddingLeft: 40,
     paddingRight: 40,
     paddingTop:10
-    // flex: 1,
-    // flexDirection: 'column',
-    // height: 20,
   },
   separatorTerjemah:{
   	backgroundColor: '#000647', 
@@ -99,15 +85,11 @@ var styles = StyleSheet.create({
 	alignItems: 'center',
   },
   arabicText:{
-    // color: 'black', 
     fontFamily: 'utsmani',
-    // fontSize: 25, 
     textAlign: 'center',
     color: '#000647'
   },
   terjemahText:{
-    // color: 'black',  
-    // fontSize: 20, 
     textAlign: 'center',
     color: '#000647'
 

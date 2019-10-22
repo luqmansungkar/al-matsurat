@@ -6,27 +6,29 @@ import {
     View,
     Linking
   } from 'react-native';
+import CommonStyles from '../style/commonStyles'
 
 
 export default class About extends Component{
+    openFlipWebsite() {
+        Linking.openURL("https://flip.id");
+    }
 
-    render(){
+
+    render() {
         return (
             <Image source={require('newAlmatsurat/assets/img/tiledback3.png')} style={styles.bgImage} collapsable={false} >
                 <View style={styles.pageContent}>
-                    <Text style={{
-                        color: 'black',
-                        fontSize: 30
-                    }} >Al-Matsurat</Text>
-                    <Text style={{color: 'black'}} >Al-Matsurat Sughra merupakan kumpulan doa pagi dan petang yang disusun oleh Hasan Al Banna.</Text>
+                    <Text style={[CommonStyles.blackText, CommonStyles.title]} >Al-Matsurat</Text>
+                    <Text style={CommonStyles.blackText} >Al-Matsurat Sughra merupakan kumpulan doa pagi dan petang yang disusun oleh Hasan Al Banna.</Text>
                     <View style={styles.divider} />
-                    <Text style={{color: 'black', fontSize: 20}} >Dibuat oleh: </Text>
-                    <Text style={{color: 'black', fontSize: 25}} >Luqman Sungkar</Text>
+                    <Text style={[CommonStyles.blackText, CommonStyles.medium]} >Dibuat oleh: </Text>
+                    <Text style={[CommonStyles.blackText, CommonStyles.big]} >Luqman Sungkar</Text>
                     <View style={styles.divider} />
-                    <Text style={{color: 'black', fontSize: 20}} >Mau transfer antar bank GRATIS?</Text>
-                    <Text style={{color: 'black', fontSize: 25}} onPress={() => Linking.openURL("https://flip.id")} >
+                    <Text style={[CommonStyles.blackText, CommonStyles.medium]} >Mau transfer antar bank GRATIS?</Text>
+                    <Text style={[CommonStyles.blackText, CommonStyles.big]} onPress={this.openFlipWebsite} >
                         <Text>Buka </Text>
-                        <Text style={{color: '#FD6542', textDecorationLine: 'underline'}}>https://flip.id </Text>
+                        <Text style={styles.link}>https://flip.id </Text>
                     </Text>
                 </View>
             </Image>
@@ -34,10 +36,9 @@ export default class About extends Component{
     }
 }
 
-var styles = StyleSheet.create({
+const styles = StyleSheet.create({
     bgImage:{
         flex: 1,
-        // flexDirection: 'column',
         width: null,
         height: null,
         resizeMode: 'stretch'
@@ -46,12 +47,15 @@ var styles = StyleSheet.create({
         marginLeft: 45,
         marginRight: 40,
         marginTop:40,
-        // backgroundColor: 'red',
     },
     divider: {
         borderBottomColor: '#b3b3b3',
         borderBottomWidth: 1,
         paddingTop: 10,
         marginBottom: 10
+    },
+    link: {
+        color: '#FD6542', 
+        textDecorationLine: 'underline'
     }
 });

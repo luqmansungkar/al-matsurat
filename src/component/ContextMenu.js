@@ -25,7 +25,6 @@ export default class ContextMenu extends Component{
 
 var styles = StyleSheet.create({
     rightMenu: {
-        // backgroundColor: "yellow",
         height: 24,
         resizeMode: 'contain',
         width: 20,
