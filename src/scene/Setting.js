@@ -25,12 +25,12 @@ export default class Setting extends Component{
 
     updateArabic = (val) => {
         this.setState({arabicSize: val});
-        AsyncStorage.setItem('arabicSize', ""+val);
+        AsyncStorage.setItem('arabicSize', `${val}`);
     }
 
     updateTerjemah = (val) => {
         this.setState({terjemahSize: val});
-        AsyncStorage.setItem('terjemahSize', ""+val);
+        AsyncStorage.setItem('terjemahSize', `${val}`);
     }
 
     render(){
@@ -59,10 +59,9 @@ export default class Setting extends Component{
     }
 }
 
-var styles = StyleSheet.create({
+const styles = StyleSheet.create({
     bgImage:{
         flex: 1,
-        // flexDirection: 'column',
         width: null,
         height: null,
         resizeMode: 'stretch'
@@ -71,7 +70,6 @@ var styles = StyleSheet.create({
         marginLeft: 40,
         marginRight: 40,
         marginTop:40,
-        // backgroundColor: 'red',
     },
     sectionTitle:{
         color: 'black',  
@@ -84,13 +82,9 @@ var styles = StyleSheet.create({
     fontSize: {
         color: 'black',  
         fontSize: 30,
-        // backgroundColor: 'blue',
-        // textAlign: 'center',
         textAlignVertical: 'center'
     },
     sampleText: {
         color: 'black',  
-        // fontSize: 20,
-        // backgroundColor: 'red',    
     }
 });
